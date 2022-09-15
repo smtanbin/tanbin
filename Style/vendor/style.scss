@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Raleway+Dots&family=Megrim&family=Ribeye&family=Cairo&family=Press+Start+2P&family=Zilla+Slab+Highlight:wght@700&family=Zen+Tokyo+Zoo&display=swap");
+.style-33x {
+  font-family: "Cairo";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+  line-height: 2;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+}
+
+.glitch {
+  animation: glitch 1s linear infinite;
+
+  @keyframes glitch {
+    2%,
+    64% {
+      transform: translate(2px, 0) skew(0deg);
+    }
+    4%,
+    60% {
+      transform: translate(-2px, 0) skew(0deg);
+    }
+    62% {
+      transform: translate(0, 0) skew(5deg);
+    }
+  }
+
+  :before,
+  :after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+  }
+
+  :before {
+    animation: glitchTop 1s linear infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  }
+
+  @keyframes glitchTop {
+    2%,
+    64% {
+      transform: translate(2px, -2px);
+    }
+    4%,
+    60% {
+      transform: translate(-2px, 2px);
+    }
+    62% {
+      transform: translate(13px, -1px) skew(-13deg);
+    }
+  }
+
+  :after {
+    animation: glitchBotom 1.5s linear infinite;
+    clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  }
+
+  @keyframes glitchBotom {
+    2%,
+    64% {
+      transform: translate(-2px, 0);
+    }
+    4%,
+    60% {
+      transform: translate(-2px, 0);
+    }
+    62% {
+      transform: translate(-22px, 5px) skew(21deg);
+    }
+  }
+}
+
+.font-starter {
+  // font-family: "Ribeye", cursive;
+  // font-family: "Bungee Hairline", cursive;
+  // font-family: "Megrim", cursive;
+  font-family: "Press Start 2P", cursive;
+}
+
+.section-1 {
+  background-color: crimson;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  padding: 0;
+  margin: 0;
+}
+.section-2 {
+  background-size: cover;
+  background-color: #000000;
+
+  h1 {
+    padding: 3rem;
+    font-family: "Zen Tokyo Zoo", cursive;
+    font-size: 3rem;
+  }
+}
+
+.font-highlight {
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+.section-default {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.skill {
+  label {
+    padding: 1rem !important;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.836) !important;
+    backdrop-filter: blur(50px) !important;
+  }
+
+  .skill-block {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+
+    div {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+
+    img {
+      width: 4rem;
+      grid-area: gridx;
+      height: 4rem;
+      border-radius: 5%;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-family: roboto;
+      // grid-area: gridy;
+      font-size: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+    .progress {
+      justify-content: left;
+      align-items: center;
+      padding: 2rem;
+      grid-area: gridy;
+    }
+  }
+}

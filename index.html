@@ -6,72 +6,152 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
-		<link rel="stylesheet" href="./Style/styles.css">
-		<link rel="stylesheet" href="./Style/spectre-icons.css">
-		<link rel="stylesheet" href="./Style/spectre-exp.css">
+		<link rel="stylesheet" href="Style/color_play_house/index.css">
+		<link rel="stylesheet" href="./Style/vendor/style.css">
 
 	</head>
 
 	<body>
-		<header class="navbar">
+		<header class="navbar bg-frost">
 			<section class="navbar-section">
-				<a href="..." class="navbar-brand mr-2">Spectre.css</a>
-				<a href="..." class="btn btn-link">Docs</a>
-				<a href="..." class="btn btn-link">GitHub</a>
+				<!-- off-screen toggle button -->
+				<a class="off-canvas-toggle btn btn-primary btn-action" href="#sidebar-id">
+					<i class="icon icon-menu"></i>
+				</a>
 			</section>
 			<section class="navbar-section">
-				<div class="input-group input-inline">
-					<input class="form-input" type="text" placeholder="search">
-					<button class="btn btn-primary input-group-btn">Search</button>
-				</div>
+				<a href="https://smtanbin.github.io/tanbin/" class="p-2 navbar-brand mr-2">Home</a>
+				<a href="mailto:mds.tanbin@gmail.com" class="btn btn-link">Contact</a>
+				<a href="https://github.com/smtanbin" class="btn btn-link">GitHub</a>
+
 			</section>
 		</header>
 
-		<div class="container">
 
+		<div class="off-canvas">
+
+			<div id="sidebar-id" class="off-canvas-sidebar">
+				<!--  Accordions -->
+				<div class="hero ">
+					<div class="hero-body">
+						<h1 class="text-break text-primary">Getting in <br> touch
+							with</h1>
+						<p class="text-break text-small">Call: <b>(+880)1611-774234</b>
+							<br>
+							Email at
+							<b>
+								mds.tanbin@gmail.com
+							</b>
+						</p>
+					</div>
+				</div>
+
+				<div class="accordion-container">
+					<div class="accordion">
+						<input id="accordion-getting-started" type="checkbox" name="docs-accordion-checkbox" hidden="">
+						<label class="accordion-header c-hand text-bold" for="accordion-getting-started">Social
+							Network</label>
+						<div class="accordion-body">
+							<ul class="menu menu-nav">
+
+								<li class="menu-item"><a href="https://www.facebook.com/b.tanbin/"
+										target="_blank">Facebook</a>
+								</li>
+								<li class="menu-item"><a href="https://twitter.com/SilentTanbin"
+										target="_blank">Twitter</a></li>
+								<li class="menu-item"><a href="https://www.linkedin.com/in/tanbin-hassan-a1b07423b/"
+										target="_blank">Linkedin</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="accordion">
+						<input id="accordion-experimentals" type="checkbox" name="docs-accordion-checkbox" hidden="">
+						<label class="accordion-header c-hand text-bold" for="accordion-experimentals">Contect</label>
+						<div class="accordion-body">
+							<ul class="menu menu-nav">
+								<li class="menu-item"><a href="mailto:mds.tanbin@gmail.com">Email</a>
+								</li>
+								<li class="menu-item"><a href="tel:+8801611774234">Call</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="off-canvas-overlay" href="#close"></a>
+		</div>
+
+		<div class="container" style="margin-top:0">
 			<div class="columns">
-
-				<section class="column col-12 m-2">
-					<div class=" full-width flex-centered" style="height: 90vh; background-image: url(./img/header.jpg);
-						  background-size: cover; backdrop-filter: blur(5px);">
+				<section class="column col-12 full-width style-33x section-1 section-default">
+					<div class="flex-centered">
 						<div class="hero-body">
-							<h1>CAPTURE EVERY <b class="text-primary">GOOD</b>
-								THINGS WITH US.</h1>
-							<p> <b class="text-primary text-capitalize">TANBIN HASSAN BAPPI</b>
-								a web developer</p>
+							<h1 style=" font-size: 100px;">Hello, I am
+
+								Tanbin Hassan Bappi
+							</h1>
+							<h4 style=" font-size: 50px;">
+
+								Working as Web Developer.
+							</h4>
+
 						</div>
 					</div>
 				</section>
 
-				<br>
+				<section class="full-width section-2 section-default">
+					<div class="hero my-2">
+						<div class="hero-body p-centered my-2 text-gray">
+							<h1 class="text-primary">My mission is to inspire and unlock creativity with liberating
+								technology.
+							</h1>
 
-
-
-
-
-
-
-
-
-				<section class="column col-12">
-					<div class="card card-noborder p-2 columns col-gapless ">
-
-						<div class="card-header column col-12">
-							<h1 class="text-primary card-title h1 p-2">Summary</h1>
 						</div>
+					</div>
 
-						<div class="d-flex card-body" style="flex-direction: row; justify-content: center;">
+				</section>
 
-							<div class=" column col-8 container p-2 flex-centered text-large text-bold">
-								<p>Software engineer with a proven ability to adapt in both self-starting and
+
+
+
+				<section class="column col-12 section-default">
+					<div class="p-2 columns col-gapless  full-width">
+
+						<div class=" column col-12 d-flex  full-width" style="padding-top: 5%; position: relative;">
+							<img src="img/gif/characters-black-matte.gif" class="img-responsive"
+								style=" height:30rem; margin: auto;">
+							<p class="flowing-text">
+								<span class="text-primary " style="font-size:400%;">About</span>
+								<br>
+								<span style="font-size:120%;">A Designer who loves to build simple and beautiful
+									things</span>
+							</p>
+						</div>
+				</section>
+				<section class=" column col-12 section-default" style="
+													background-color: black;
+													padding: 3rem;">
+					<div class=" column col-12 mt-2 text-light">
+						<h1 class="text-primary font-highlight  card-title h1 p-2 ">Summary</h1>
+
+						<div class="d-flex" style="flex-direction: row; justify-content: center;">
+							<div class=" column col-8 container p-2 flex-centered text-large">
+								<p class="font-roboto roboto-100">Software engineer with a proven ability to adapt in
+									both
+									self-starting
+									and
 									collaborative
 									environments
 									while staying
-									focused on achieving high-quality results under strict deadlines. Eager to
+									focused on achieving high-quality results under strict deadlines. Eager
+									to
 									obtain a
 									challenging
 									position at a
-									prestigious company like Standard Bank Ltd that will expand my learning and
+									prestigious company like Standard Bank Ltd that will expand my learning
+									and
 									build
 									upon my
 									developer
@@ -82,125 +162,506 @@
 								<img src="./img/profile/tanbin-removebg-preview.png" class="img-responsive"
 									height="300">
 							</div>
-
 						</div>
 					</div>
-				</section>
+			</div>
+			</section>
+			<section class="column col-12">
+				<div class=" column col-12 mt-2" style="padding: 3rem;">
+					<h1 class="text-primary h1 p-2 font-highlight ">My Experience</h1>
 
+					<div class="d-flex" style="flex-direction: row; justify-content: left; padding-left: 5rem;">
+						<div class="timeline">
+							<div class="timeline-item">
+								<div class="timeline-left">
 
-				<section class="column mt-2 col-12">
-					<div class="card card-noborder p-2 columns col-gapless ">
-						<div class="card-header column col-12 mb-2">
-							<h1 class="text-primary card-title h1 p-2">Academic</h1>
-						</div>
+									<i class="icon icon-time icon-lg"></i>
 
-						<div class="mt-2 columns col-oneline grid-lg d-flex    
-								flex-justify-content-evenly	card-body">
-
-							<div class="card column col-3 col-md-4">
-								<div class="card-image">
-									<img src="img/academic/school.jpg" class="img-responsive full-width">
 								</div>
-								<div class="card-header">
-									<div class="card-title h5">HIGH SCHOOL</div>
-									<div class="card-subtitle text-gray">GPA 4.81/5</div>
-								</div>
-								<div class="card-body">
-									Sucessfully Pass with GPA 4.81/5 in Secendery School Certificet on Science
-									from Tongi Pilot School under Dhaka Education Board
-								</div>
-							</div>
+								<div class="timeline-content">
+									<div class="tile">
+										<div class="tile-content">
+											<p class="tile-subtitle">November, 2018 - Continuing</p>
+											<p class="tile-title">
+												<span class="text-bold">Organization:</span>:
+												Standard Bank Ltd
+												<br>
+												<span class="text-bold">Position:</span>:
+												Junior Assistant Officer
+											</p>
 
-							<div class="card column col-3 col-md-4">
-								<div class="card-image">
-									<img src="./img/academic/upi.png" class="img-responsive full-width">
-								</div>
-								<div class="card-header">
-									<div class="card-title h5">COLLEGE</div>
-									<div class="card-subtitle text-gray">CGPA 2.71/4</div>
-								</div>
-								<div class="card-body">
-									Sucessfully complited Diploma in Electrical Engineering with GPA 2.71/4 from
-									Uttara Polytechnic Institute under Bangladesh Technical Education Board
-								</div>
-							</div>
+											<ul>
+												<span class="text-bold">Area of Expertise</span>
 
-							<div class="card column col-3 col-md-4">
-								<div class="card-image">
-									<img src="img/academic/campus1.jpg" class="img-responsive full-width">
-								</div>
-								<div class="card-header">
-									<div class="card-title h5">POSTGRADUATE</div>
-									<div class="card-subtitle text-gray">...</div>
-								</div>
-								<div class="card-body">
-									Will complite from Canadian University of Bangladesh on 2023
-								</div>
+												<p>Banking (1.1 yrs), IT Support Service (1.1 yrs), Technical Skills
+													(1.1 yrs)</p>
+												<span class="text-bold">Duties/Responsibilities:</span>
 
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class=" columns col-gapless flex-centered">
-					<div class=" column col-12" style="padding-top: 5%; position: relative;">
-						<img src="./img/skills.png" height="300px" width="100%" class="img-responsive">
-						<span class="flowing-text text-primary" style="font-size:400%;">Skills</span>
-					</div>
-
-
-					<div class="card-body">
-
-						<div class="column col-12">
-							<div class="card  m-2 p-2 columns col-gapless card-noborder ">
-
-								<div class="card-header">
-									<div class="card-title text-primary h1 py-2">Photo Editing</div>
-								</div>
-
-								<br>
-								<div class="d-flex" style="flex-direction: row;	justify-content: center;">
-									<div class=" column col-6">
-										<div class="comparison-slider">
-											<figure class="comparison-before">
-												<img src="./img/imageslide/before.jpg" />
-												<div class="comparison-label">Before</div>
-											</figure>
-
-											<figure class="comparison-after">
-												<img src="./img/imageslide/after.jpg" />
-												<!-- image (after) -->
-												<div class="comparison-label">After</div>
-												<textarea class="comparison-resizer" readonly></textarea>
-											</figure>
+												<li class="tile-title">
+													Provide Primary technical support to Agents and officers
+													related to agent banking Systems.
+												</li>
+												<li class="tile-title">
+													Perform different system queries for report generation and
+													issues related to agent banking.
+												</li>
+												<li class="tile-title">
+													User verification Test (UVT) for Agent Banking System.
+												</li>
+												<li class="tile-title">
+													Support DBA Agent Banking System.
+												</li>
+												<li class="tile-title">
+													Monitor agent Banking System.
+												</li>
+											</ul>
 										</div>
 									</div>
+								</div>
+							</div>
+							<div class="timeline-item">
+								<div class="timeline-left">
+									<a class="timeline-icon icon-lg">
+										<i class="icon icon-check"></i>
+									</a>
+								</div>
+								<div class="timeline-content">
+									<div class="tile">
+										<div class="tile-content">
+											<p class="tile-subtitle">November, 2016 - November, 2018</p>
+											<p class="tile-title">
+												<span class="text-bold">Organization:</span>:
+												Flaxen Group.
+												<br>
+												<span class="text-bold">Position:</span>:
+												Support Engineer
+											</p>
 
+											<ul>
+												<span class="text-bold">Area of Expertise</span>
 
-									<div class=" column col-6 container p-2">
+												<p>IT Support Service (2 yrs)
+												</p>
+												<span class="text-bold">Duties/Responsibilities:</span>
 
-										<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore deleniti
-											reiciendis
-											pariatur sapiente, dolorum praesentium maiores sint, vero qui, cupiditate
-											eum
-											dolorem dolor quibusdam id accusamus dignissimos asperiores fugit eaque!</p>
+												<li class="tile-title">
+													Overall IT Support..
+												</li>
+												<li class="tile-title">
+													Zimba Mail Server Support.
+												</li>
+												<li class="tile-title">
+													ERP Software Support.
+												</li>
+												<li class="tile-title">
+													NAS Support.
+												</li>
+												<li class="tile-title">
+													Perform different system queries for report generation and
+													issues related to ERP.
+												</li>
+											</ul>
+
+										</div>
 									</div>
 								</div>
 							</div>
+							...
 						</div>
-				</section>
+						<!-- <div>
+								<img src="img/idea.jpg" height="300" width=">
+							</div> -->
+					</div>
 
-				<section>
-
-				</section>
-
-
-
+				</div>
 
 
-				<div class="column col-12">col-xs-3</div>
-			</div>
-		</div>
+			</section>
+
+
+
+			<section class="column mt-2 col-12 section-default">
+
+
+				<div class=" column col-12 d-flex full-width"
+					style="padding-top: 5%; position: relative; background-color: #007988;">
+					<img src="img/gif/5c84ec7a17783f0327420f575cc7352c.gif" class="img-responsive"
+						style=" height:30rem; margin: auto;">
+					<p class="flowing-text">
+						<span class="text-secondary " style="font-size:400%;">Academic</span>
+					</p>
+
+				</div>
+			</section>
+
+			<section class="column mt-2 col-12 section-default">
+				<div
+					class="mt-2 columns col-oneline section-default grid-lg d-flex flex-justify-content-evenly	card-body">
+
+					<div class="card column col-3 col-md-4">
+						<div class="card-image">
+							<img src="img/academic/school.jpg" class="img-responsive full-width">
+						</div>
+						<div class="card-header">
+							<div class="card-title h5">HIGH SCHOOL</div>
+							<div class="card-subtitle text-gray">GPA 4.81/5</div>
+						</div>
+						<div class="card-body">
+							Sucessfully Pass with GPA 4.81/5 in Secendery School Certificet on Science
+							from Tongi Pilot School under Dhaka Education Board
+						</div>
+					</div>
+
+					<div class="card column col-3 col-md-4">
+						<div class="card-image">
+							<img src="./img/academic/upi.png" class="img-responsive full-width">
+						</div>
+						<div class="card-header">
+							<div class="card-title h5">COLLEGE</div>
+							<div class="card-subtitle text-gray">CGPA 2.71/4</div>
+						</div>
+						<div class="card-body">
+							Sucessfully complited Diploma in Electrical Engineering with GPA 2.71/4 from
+							Uttara Polytechnic Institute under Bangladesh Technical Education Board
+						</div>
+					</div>
+
+					<div class="card column col-3 col-md-4">
+						<div class="card-image">
+							<img src="img/academic/campus1.jpg" class="img-responsive full-width">
+						</div>
+						<div class="card-header">
+							<div class="card-title h5">POSTGRADUATE</div>
+							<div class="card-subtitle text-gray">...</div>
+						</div>
+						<div class="card-body">
+							Will complite from Canadian University of Bangladesh on 2023
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+
+			<section class="column mt-2 col-12 section-default">
+				<div class=" column col-12 d-flex full-width" style="padding-top: 5%; position: relative;">
+					<img src="./img/gif/animation-software-header-wide.gif" class="img-responsive"
+						style=" height:30rem; margin: auto;">
+					<p class="flowing-text">
+						<span class="text-secondary " style="font-size:400%;">Skills</span>
+					</p>
+				</div>
+			</section>
+
+			<section class="columns">
+				<div class="column col-6 d-flex " style="padding-top: 5%; position: relative;">
+
+					<img src="./img/gif/image_processing20211026-408-15lbslq.gif" class="img-responsive"
+						style=" height:30rem; margin: auto;">
+					<p class="flowing-text" style="top:0 !important;">
+						<span class="text-primary font-highlight" style="font-size:400%;">Programming</span>
+					</p>
+				</div>
+				<div class="column col-6 d-flex p-2 skill" style="flex-direction: column;">
+
+
+
+					<div class="accordion">
+						<input type="checkbox" id="accordion-1" name="accordion-checkbox" hidden>
+						<label style="background-image: url('./img/button/web.png');" class="accordion-header text-bold"
+							for="accordion-1">
+							<i class="icon icon-arrow-right mr-1"></i>
+							Web Forntend Development
+						</label>
+						<div class="accordion-body">
+							<!-- Accordions content -->
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons/html.png" alt="">
+									<p>HTML</p>
+								</div>
+								<progress class="column col-8 progress" value="90" max="100"></progress>
+							</div>
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons/css.png" alt="">
+									<p>CSS</p>
+								</div>
+								<progress class="column col-8 progress" value="90" max="100"></progress>
+							</div>
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons/js.png" alt="">
+									<p>Javascript</p>
+								</div>
+								<progress class="column col-8 progress" value="90" max="100"></progress>
+							</div>
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons//Rreact.png" alt="">
+									<p>ReactJS</p>
+								</div>
+								<progress class="column col-8 progress" value="40" max="100"></progress>
+							</div>
+						</div>
+
+					</div>
+					<div class="accordion pt-2">
+						<input type="checkbox" id="accordion-2" name="accordion-checkbox" hidden>
+						<label class="accordion-header text-bold" for="accordion-2"
+							style="background-image: url('./img/button/be.png');">
+							<i class="icon icon-arrow-right mr-1"></i>
+							Backend Development
+						</label>
+						<div class=" accordion-body">
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons/njs.png" alt="">
+									<p>NodeJS</p>
+								</div>
+								<progress class="column col-8 progress" value="90" max="100"></progress>
+							</div>
+							<div class="skill-block col-12">
+								<div class="column col-4">
+									<img src="./img/icons/sql.png" alt="">
+									<p>SQL</p>
+								</div>
+								<progress class="column col-8 progress" value="90" max="100"></progress>
+							</div>
+						</div>
+						<div class="accordion pt-2">
+							<input type="checkbox" id="accordion-3" name="accordion-checkbox" hidden>
+							<label style="background-image: url('./img/button/_app.png');"
+								class="accordion-header text-bold" for="accordion-3">
+								<i class="icon icon-arrow-right mr-1"></i>
+								Plartform Applicatin Development
+							</label>
+							<div class="accordion-body">
+								<div class="skill-block col-12">
+									<div class="column col-4">
+										<img src="./img/icons/electron.png" alt="">
+										<p>Electron</p>
+									</div>
+									<progress class="column col-8 progress" value="77" max="100"></progress>
+								</div>
+								<div class="skill-block col-12">
+									<div class="column col-4">
+										<img src="./img/icons/flutter.png" alt="">
+										<p>Flutter</p>
+									</div>
+									<progress class="column col-8 progress" value="40" max="100"></progress>
+								</div>
+							</div>
+							<div class="accordion pt-2">
+								<input type="checkbox" id="accordion-4" name="accordion-checkbox" hidden>
+								<label style="background-image: url('./img/button/app.png');"
+									class=" accordion-header text-bold" for="accordion-4">
+									<i class="icon icon-arrow-right mr-1"></i>
+									Other
+								</label>
+								<div class="accordion-body">
+									<div class="skill-block col-12">
+										<div class="column col-4">
+											<img src="./img/icons/py.png" alt="">
+											<p>Python</p>
+										</div>
+										<progress class="column col-8 progress" value="40" max="100"></progress>
+									</div>
+									<div class="skill-block col-12">
+										<div class="column col-4">
+											<img src="./img/icons/java.png" alt="">
+											<p>JAVA</p>
+										</div>
+										<progress class="column col-8 progress" value="50" max="100"></progress>
+									</div>
+								</div>
+
+							</div>
+			</section>
+
+
+			<section class="columns col-12 p-2">
+				<div class="column col-4 " style="padding-top: 5%; position: relative;">
+
+					<img src="./img/gif/dribbble.gif" class="img-responsive" style=" height:20rem; margin: auto;">
+					<p class="flowing-text" style="top:2% !important; right:25% !important;">
+						<span class="text-primary font-highlight" style="font-size:400%;">Project Sample</span>
+					</p>
+				</div>
+
+
+				<div class="carousel column col-8 ">
+					<!-- carousel locator -->
+					<input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden=""
+						checked="">
+					<input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
+					<input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
+					<input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
+
+					<!-- carousel container -->
+					<div class="carousel-container">
+						<!-- carousel item -->
+						<figure class="carousel-item">
+							<label class="item-prev btn btn-action btn-lg" for="slide-4"><i
+									class="icon icon-arrow-left"></i></label>
+							<label class="item-next btn btn-action btn-lg" for="slide-2"><i
+									class="icon icon-arrow-right"></i></label>
+							<img class="img-responsive rounded" src="img/carasol/Screenshot 2022-09-15 172858.png"
+								alt="macOS Yosemite Wallpaper">
+						</figure>
+						<figure class="carousel-item">
+							<label class="item-prev btn btn-action btn-lg" for="slide-1"><i
+									class="icon icon-arrow-left"></i></label>
+							<label class="item-next btn btn-action btn-lg" for="slide-3"><i
+									class="icon icon-arrow-right"></i></label>
+							<img class="img-responsive rounded" src="img/carasol/Screenshot 2022-09-15 172929.png"
+								alt="macOS Yosemite Wallpaper">
+						</figure>
+						<figure class="carousel-item">
+							<label class="item-prev btn btn-action btn-lg" for="slide-2"><i
+									class="icon icon-arrow-left"></i></label>
+							<label class="item-next btn btn-action btn-lg" for="slide-4"><i
+									class="icon icon-arrow-right"></i></label>
+							<img class="img-responsive rounded"
+								src="img/carasol/171445093-3910e128-b7f5-4882-bbe9-c9138c240957.png"
+								alt="macOS El Capitan Wallpaper">
+						</figure>
+						<figure class="carousel-item">
+							<label class="item-prev btn btn-action btn-lg" for="slide-3"><i
+									class="icon icon-arrow-left"></i></label>
+							<label class="item-next btn btn-action btn-lg" for="slide-1"><i
+									class="icon icon-arrow-right"></i></label>
+							<img class="img-responsive rounded"
+								src="img/carasol/171445355-2e7c9578-6c60-4320-9fe3-a30b0cf71490.png"
+								alt="macOS El Capitan Wallpaper">
+						</figure>
+					</div>
+					<!-- carousel navigation -->
+					<div class="carousel-nav">
+						<label class="nav-item text-hide c-hand" for="slide-1">1</label>
+						<label class="nav-item text-hide c-hand" for="slide-2">2</label>
+						<label class="nav-item text-hide c-hand" for="slide-3">3</label>
+						<label class="nav-item text-hide c-hand" for="slide-4">4</label>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="columns col-gapless col-12 section-default" style="margin-top:10rem ;">
+
+				<div class="column col-12 d-flex full-width" style="padding:5% 0%; position: relative;">
+					<img src="./img/gif/image_processing20211026-759-ks6s9.gif" class="img-responsive"
+						style=" height:30rem; margin: auto;">
+					<p class="flowing-text" style="top:0 !important;">
+						<span class="text-primary font-highlight" style="font-size:400%;">Photo Editing</span>
+					</p>
+				</div>
+
+				<div class="column columns col-12 mt-2">
+					<div class="colume col-6 flex-centered">
+						<div class="hero bg-gray">
+							<div class="hero-body">
+								<h1 class="d-flex"><img src="./img/icons/Photoshop.webp" height="50rem"> Photoshop
+								</h1>
+								<p>I Have long and goof experiance with Adobe Photoshop for photo Editing.</p>
+							</div>
+						</div>
+					</div>
+					<div class="colume col-6">
+						<img src="./img/gif/GIF-editing-options.gif" alt="">
+					</div>
+				</div>
+
+
+
+				<div class="d-flex column col-12 mt-2 bg-primary"
+					style="flex-direction: row;	justify-content: center; padding: 5rem;">
+					<div class=" column col-6">
+						<div class="comparison-slider">
+							<figure class="comparison-before">
+								<img src="./img/imageslide/before.jpg" />
+								<div class="comparison-label">Before</div>
+							</figure>
+
+							<figure class="comparison-after">
+								<img src="./img/imageslide/after.jpg" />
+								<!-- image (after) -->
+								<div class="comparison-label">After</div>
+								<textarea class="comparison-resizer" readonly></textarea>
+							</figure>
+						</div>
+					</div>
+					<div class=" column col-6 container p-2 ">
+						<div class="hero  flex-centered">
+							<div class="hero-body">
+								<h1 style="font-size: 5rem;" class="h1 font-roboto">Sample</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="column columns col-12" style="margin-top:5rem">
+					<div class="colume col-6 flex-centered">
+						<div class="hero">
+							<div class="hero-body">
+								<h1 class="d-flex"><img src="./img/icons/Adobe-Illustrator-Logo.jpg" height="50rem">
+									Illustrator
+								</h1>
+								<p>I also have experiance with vactor & logo designing.</p>
+							</div>
+						</div>
+					</div>
+					<div class="colume col-6">
+						<img src="./img/gif/ai.gif" alt="">
+					</div>
+				</div>
+
+				<div class="hero  colume col-12 section-default">
+					<div class="hero-body">
+						<h1 class="font-highlight" style="font-size: 2rem;">Some Designed Logo</h1>
+
+						<div class="clearfix d-flex flex-justify-content-evenly" style="margin-top: 10rem;">
+							<img src="./img/project/atom.png" height="50px">
+							<img src="./img/project/Witctcraftlogo.png" height="50px">
+						</div>
+					</div>
+				</div>
+
+				<div class="colume col-12 flex-centered hero">
+					<div class="hero-body">
+
+						<p>Copyright 2022 All Rights Reserved.
+						</p>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</body>
 
 </html>
